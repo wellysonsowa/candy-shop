@@ -306,7 +306,12 @@ button {
 #link:hover {
     background-color: rgb(250, 6, 6);
 }
-
+@media only screen and (max-width: 600px) {
+  /* Estilos para dispositivos mÃ³veis */
+}
+@media only screen and (min-width: 601px) {
+  /* Estilos para dispositivos de tela maior (computador, tablet, etc.) */
+}
 
 
 
